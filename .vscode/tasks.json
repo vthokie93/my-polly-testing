@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/WebApp/WebApp.csproj",
+                "${workspaceFolder}/src/WebClient/WebClient.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/src/WebApp/WebApp.csproj",
+                "${workspaceFolder}/src/WebClient/WebClient.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/src/WebApp/WebApp.csproj"
+                "${workspaceFolder}/src/WebClient/WebClient.csproj"
             ],
             "problemMatcher": "$msCompile"
         },
@@ -48,7 +48,7 @@
             "type": "process",
             "problemMatcher": "$msCompile",
             "options": {
-                "cwd": "${workspaceFolder}/src/WebApp/WebApp.csproj"
+                "cwd": "${workspaceFolder}/src/WebClient/WebClient.csproj"
             }
         }
     ]
